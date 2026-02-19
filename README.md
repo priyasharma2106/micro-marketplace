@@ -1,15 +1,15 @@
-# 🛍️ Micro Marketplace
+#  Micro Marketplace
 
 A full-stack e-commerce marketplace application with web and mobile support, built as an internship assignment project.
 
-## 📋 Project Overview
+##  Project Overview
 
 Micro Marketplace is a complete marketplace platform featuring:
 - **Backend API** - RESTful API with authentication and CRUD operations
 - **Web Application** - Responsive React web app
 - **Mobile Application** - Cross-platform React Native app
 
-## ✨ Features
+##  Features
 
 ### Core Features
 - 🔐 **User Authentication** - Register, login, and logout functionality
@@ -30,7 +30,7 @@ Micro Marketplace is a complete marketplace platform featuring:
 - Pagination support
 - Indian Rupee (₹) currency
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Node.js** - Runtime environment
@@ -55,7 +55,7 @@ Micro Marketplace is a complete marketplace platform featuring:
 - **AsyncStorage** - Local storage
 - **Axios** - HTTP client
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 micro_marketplace/
