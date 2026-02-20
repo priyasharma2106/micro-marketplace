@@ -23,7 +23,7 @@ api.interceptors.request.use((config) => {
 // Auth Services
 export const authService = {
   register: async (userData) => {
-    const response = await api.post('/auth/register', userData);
+    const response = await api.post('/api/auth/register', userData);
     if (response.data.token) {
       localStorage.setItem('token', response.data.token);
     }
@@ -31,7 +31,7 @@ export const authService = {
   },
 
   login: async (credentials) => {
-    const response = await api.post('/auth/login', credentials);
+    const response = await api.post('/api/auth/login', credentials);
     if (response.data.token) {
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('user', JSON.stringify(response.data.user));
@@ -53,29 +53,29 @@ export const authService = {
 // Product Services
 export const productService = {
   getAll: async (page = 1, limit = 12, search = '') => {
-    const response = await api.get('/products', {
+    const response = await api.get('/api/products', {
       params: { page, limit, search },
     });
     return response.data;
   },
 
   getById: async (id) => {
-    const response = await api.get(`/products/${id}`);
+    const response = await api.get(`/api/products/${id}`);
     return response.data;
   },
 
   create: async (productData) => {
-    const response = await api.post('/products', productData);
+    const response = await api.post('/api/products', productData);
     return response.data;
   },
 
   update: async (id, productData) => {
-    const response = await api.put(`/products/${id}`, productData);
+    const response = await api.put(`/api/products/${id}`, productData);
     return response.data;
   },
 
   delete: async (id) => {
-    const response = await api.delete(`/products/${id}`);
+    const response = await api.delete(`/api/products/${id}`);
     return response.data;
   },
 };
@@ -83,17 +83,17 @@ export const productService = {
 // Favorite Services
 export const favoriteService = {
   getAll: async () => {
-    const response = await api.get('/favorites');
+    const response = await api.get('/api/favorites');
     return response.data;
   },
 
   add: async (productId) => {
-    const response = await api.post('/favorites', { productId });
+    const response = await api.post('/api/favorites', { productId });
     return response.data;
   },
 
   remove: async (productId) => {
-    const response = await api.delete(`/favorites/${productId}`);
+    const response = await api.delete(`/api/favorites/${productId}`);
     return response.data;
   },
 };
