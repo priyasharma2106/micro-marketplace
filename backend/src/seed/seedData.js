@@ -11,61 +11,61 @@ const products = [
     title: "Apple iPhone 15 Pro",
     price: 999.99,
     description: "Latest iPhone with A17 Pro chip, titanium design, and advanced camera system. Perfect for photography enthusiasts.",
-    image: "https://i.imgur.com/cQxCJXs.jpg"
+    image: "https://images.unsplash.com/photo-1697636424544-e77c85053dae?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "Sony WH-1000XM5 Headphones",
     price: 349.99,
     description: "Industry-leading noise canceling headphones with exceptional sound quality and 30-hour battery life.",
-    image: "https://i.imgur.com/pTjAkRn.jpg"
+    image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "MacBook Air M3",
     price: 1299.99,
     description: "Incredibly thin and light laptop powered by the M3 chip. Perfect for students and professionals.",
-    image: "https://i.imgur.com/b8EhpGR.jpg"
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "Samsung Galaxy Watch 6",
     price: 299.99,
     description: "Advanced smartwatch with health tracking, fitness features, and sleek design for everyday wear.",
-    image: "https://i.imgur.com/yQNz7jM.jpg"
+    image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "iPad Pro 12.9-inch",
     price: 1099.99,
     description: "Powerful tablet with M2 chip and stunning Liquid Retina XDR display. Ideal for creative work.",
-    image: "https://i.imgur.com/ZLm3Rcc.jpg"
+    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "Bose QuietComfort Earbuds",
     price: 279.99,
     description: "Premium wireless earbuds with world-class noise cancellation and rich, balanced sound.",
-    image: "https://i.imgur.com/kVGzN3P.jpg"
+    image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "Nintendo Switch OLED",
     price: 349.99,
     description: "Enhanced gaming console with vibrant OLED screen and improved audio for on-the-go gaming.",
-    image: "https://i.imgur.com/QJYm5Sz.jpg"
+    image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "Canon EOS R6 Camera",
     price: 2499.99,
     description: "Professional mirrorless camera with 20MP sensor, 4K video, and incredible low-light performance.",
-    image: "https://i.imgur.com/ZkLGfzV.jpg"
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "Logitech MX Master 3S",
     price: 99.99,
     description: "Ergonomic wireless mouse with ultra-fast scrolling and customizable buttons for productivity.",
-    image: "https://i.imgur.com/Xp9CqFm.jpg"
+    image: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&auto=format&fit=crop&q=60"
   },
   {
     title: "Kindle Paperwhite",
     price: 139.99,
     description: "Waterproof e-reader with glare-free display and adjustable warm light. Perfect for reading anywhere.",
-    image: "https://i.imgur.com/YHm4j5L.jpg"
+    image: "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=500&auto=format&fit=crop&q=60"
   }
 ];
 
